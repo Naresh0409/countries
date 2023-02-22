@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.header
+{
+    color: rgba(199, 241, 252, 0.621);
+    min-height: 10vh;
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(25, 102, 209), rgb(207, 36, 104));
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.nav-links ul li
+{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    position: relative;
+    text-transform: uppercase;    
+    align-content: center;
+}
+.nav-links ul li a
+{
+        display: inline-block;
+        background: linear-gradient(45deg, rgb(223, 187, 27), rgb(212, 11, 11));
+        box-shadow: 0px 5px 5px black;
+        text-decoration: none;
+        text-align: center;
+        color: azure;
+        font-size: 20px;
+        padding: 10px 10px;
+}
+.nav-links ul li a:hover
+{
+    border-radius: 20%;
+    transition: 0.25s;
+    background: linear-gradient(90deg, orange, brown);
+}
+/* Sidebar */
+.sidebar
+{
+    float:left;
+    width: 250px;
+    height: 100vh;
+    padding: 10px;
+    }
+
+    .sidebar a{
+        display: inline-block;
+        text-decoration: none;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 25px;
+    }
+
+    .sidebar a:hover{
+        background: linear-gradient(90deg, orange, brown);
+        border-radius: 10px;
+        box-shadow: 0 0 5px black;
+    }
+
+.country h2
+{
+    font-size: 32px;
+    color: rgb(109, 50, 8);
+    font-size: 600;
+}
+.country img
+{
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.country p
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
+}
